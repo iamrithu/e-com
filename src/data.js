@@ -40,35 +40,35 @@ export const categories = [{
 
 export const popularProduct = [{
         id: 1,
-        img: "",
+        img: "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 2,
-        img: "https://www.wallpapersdsc.net/wp-content/uploads/2015/09/cara_delevingne_202.jpg",
+        img: "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     },
     {
         id: 3,
-        img: "https://www.wallpapersdsc.net/wp-content/uploads/2015/09/cara_delevingne_202.jpg",
+        img: "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 4,
-        img: "https://www.wallpapersdsc.net/wp-content/uploads/2015/09/cara_delevingne_202.jpg",
+        img: "https://images.pexels.com/photos/1805853/pexels-photo-1805853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 5,
-        img: "https://www.wallpapersdsc.net/wp-content/uploads/2015/09/cara_delevingne_202.jpg",
+        img: "https://images.pexels.com/photos/7256040/pexels-photo-7256040.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 6,
-        img: "https://www.wallpapersdsc.net/wp-content/uploads/2015/09/cara_delevingne_202.jpg",
+        img: "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     },
     {
         id: 7,
-        img: "https://www.wallpapersdsc.net/wp-content/uploads/2015/09/cara_delevingne_202.jpg",
+        img: "https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     },
     {
         id: 8,
-        img: "https://www.wallpapersdsc.net/wp-content/uploads/2015/09/cara_delevingne_202.jpg",
+        img: "https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     }
 
 ]

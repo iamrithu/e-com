@@ -6,10 +6,12 @@ import { Slider } from '../components/Slider'
 import { Categories } from '../components/Categories'
 import { ProductList } from '../components/ProductList'
 import { NewsLetter } from '../components/NewsLetter'
+import { Footer } from '../components/Footer'
+
 
 const Container = styled.div`
 scroll-behavior: smooth;`
-const Home = () => {
+export const Home = () => {
     return (
         <Container>
             <Announcement />
@@ -18,8 +20,8 @@ const Home = () => {
             <Categories />
             <ProductList />
             <NewsLetter />
+            <Footer />
         </Container>
     )
 }
 
-export default Home

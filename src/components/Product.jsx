@@ -62,10 +62,11 @@ transition: all 0.5s ease;
 `;
 
 export const Product = ({ index }) => {
+
     return (
         <Container>
             <Circle />
-            <Image src={index.img} />
+            <Image src={index.img} key={index.id} />
             <Info>
                 <Icon>
                     <ShoppingCartOutlined />

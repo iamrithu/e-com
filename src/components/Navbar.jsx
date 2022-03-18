@@ -77,10 +77,9 @@ export const Navbar = () => {
                 <MenuItem > Register </MenuItem>
                 <MenuItem > Sign In </MenuItem>
                 <MenuItem >
-                    <Badge color="secondary"
-                        badgeContent={4}
-                        color="primary" >
+                    <Badge badgeContent={4} color="primary">
                         <ShoppingCartOutlined />
-                    </Badge> </MenuItem >
+                    </Badge>
+                </MenuItem >
             </Right> </Wrapper > </Container>;
-};
+};  

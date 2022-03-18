@@ -1,4 +1,4 @@
-import { ArrowLeftOutlined, ArrowRightOutlined, Description } from "@material-ui/icons"
+import { ArrowLeftOutlined, ArrowRightOutlined, } from "@material-ui/icons"
 import { useState } from "react"
 import styled from "styled-components"
 import { SliderItem } from "../data";
@@ -79,15 +79,17 @@ export const Slider = () => {
 
     const handleClick = (direction) => {
         if (direction === "left") {
-            setSlideIndex(slideIndex > 0 ? slideIndex + 2 : 2)
+            setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2)
+        } else {
+            setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0)
         }
-        setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0)
     }
+
     return (
 
         <Container>
             <Arrow direction="left">
-                <ArrowLeftOutlined onClick={() => handleClick('left')} />
+                <ArrowLeftOutlined onClick={() => handleClick("left")} />
             </Arrow>
             <Wrapper slideIndex={slideIndex}>
                 {SliderItem.map((info) => {
