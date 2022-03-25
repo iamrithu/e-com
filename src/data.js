@@ -35,6 +35,16 @@ export const categories = [{
         id: 3,
         img: "https://cf.shopee.in/file/a936e5e2704d303ee26bea33ffffa05f",
         title: "LIGHT JACKETS"
+    },
+    {
+        id: 4,
+        img: "https://cf.shopee.in/file/a936e5e2704d303ee26bea33ffffa05f",
+        title: "LIGHT JACKETS"
+    },
+    {
+        id: 4,
+        img: "https://cf.shopee.in/file/a936e5e2704d303ee26bea33ffffa05f",
+        title: "LIGHT JACKETS"
     }
 ]
 
